@@ -34,11 +34,13 @@ int main(){
         cout << "TRIANGULO ACUTANGULO" << endl;
     }
 
-    if(a == b && b == c){
+    if(a == b && b == c && a == c){
         cout << "TRIANGULO EQUILATERO" << endl;
+
+        return 0;
     }
 
-    if(a==b || b==c || a==c){
+    if(a == b || b == c || a == c){
         cout << "TRIANGULO ISOSCELES" << endl;
     }
 
